@@ -90,6 +90,18 @@ body { background: #f8f9fa; margin: 0; }
     .infobox { float: none; width: 100%; margin: 0 0 1em 0; }
 }
 
+@media (max-width: 720px) {
+    .thumb, .thumb.tleft { 
+        float: none; 
+        clear: both;
+        margin: 1em auto; 
+        display: block;
+    }
+    .thumbinner {
+        margin: 0 auto;
+    }
+}
+
 /* Figure/thumbnail styling */
 .thumb { margin: 0.5em 0 0.8em 1.4em; clear: right; float: right; }
 .thumb.tleft { margin: 0.5em 1.4em 0.8em 0; float: left; clear: left; }
@@ -556,6 +568,10 @@ img[src*="wikimedia"]:not([src*="logo"]) {
 </div>
 </div>
 
+<div style="text-align: center; padding: 1.5em; margin-top: 1em; font-style: italic; color: #54595d;">
+Made for Brian with love and friendship by the Beef Boys
+</div>
+
                     </div>
                 </div>
             </div>
@@ -581,6 +597,9 @@ img[src*="wikimedia"]:not([src*="logo"]) {
         <div style="margin-top: 0.5rem;">
             <img src="https://en.wikipedia.org/static/images/footer/wikimedia-button.svg" alt="Wikimedia Foundation" height="31">
             <img src="https://en.wikipedia.org/static/images/footer/poweredby_mediawiki.svg" alt="Powered by MediaWiki" height="31" style="margin-left: 1rem;">
+        </div>
+        <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #a2a9b1; font-style: italic; color: #54595d;">
+            Made with love and friendship by the Beef Boys
         </div>
     </div>
 </footer>
